@@ -9,7 +9,12 @@ body {
   font-family: Arial, sans-serif;
   background: #ffffff;
 }
-
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls-timeline {
+  display: none !important;
+}
 .exit-button {
   position: fixed;
   top: 2vw;
